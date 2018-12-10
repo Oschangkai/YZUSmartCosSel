@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Table } from "semantic-ui-react";
+import { Link } from "@reach/router";
 
 class CourseInfo extends Component {
   render() {
@@ -40,7 +41,7 @@ class CourseInfo extends Component {
           </Table.Body>
           <Table.Footer>
             <Table.Row textAlign='center'>
-              <Table.HeaderCell colSpan='2'><a href='#'>課程大綱</a></Table.HeaderCell>
+              <Table.HeaderCell colSpan='2'><Link to='#'>課程大綱</Link></Table.HeaderCell>
             </Table.Row>
           </Table.Footer>
         </Table>

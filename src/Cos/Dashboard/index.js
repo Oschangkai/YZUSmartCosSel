@@ -1,17 +1,16 @@
 import React, { Component } from "react";
 import { Breadcrumb, Grid, Button, Container } from "semantic-ui-react";
 
-import Personal from "./Personal";
-import Status from "./Status";
-import Snapshot from "./Snapshot";
-import Schedule from "./Schedule";
-import CourseInfo from "./CourseInfo";
-import Options from "./Options";
+import Personal from "./personal";
+import Status from "./status";
+import Snapshot from "./snapshot";
+import Schedule from "./schedule";
+import CourseInfo from "./courseInfo";
+import Options from "./options";
 
 class Dashboard extends Component {
   render() {
     return (
-    <div>
       <Container>
         <Grid stretched>
           <Grid.Row>
@@ -37,7 +36,6 @@ class Dashboard extends Component {
           </Grid.Row>
         </Grid>
       </Container>
-      </div>
     );
   }
 }

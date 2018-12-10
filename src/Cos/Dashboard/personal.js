@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Table } from "semantic-ui-react";
+import { Link } from "@reach/router";
 
 class Personal extends Component {
   render() {
@@ -23,16 +24,16 @@ class Personal extends Component {
             </Table.Row>
             <Table.Row>
               <Table.Cell>必排及避開課程：</Table.Cell>
-              <Table.Cell><a href='#'>要詳細</a></Table.Cell>
+              <Table.Cell><Link to='#'>要詳細</Link></Table.Cell>
             </Table.Row>
             <Table.Row>
               <Table.Cell>不排課時間：</Table.Cell>
-              <Table.Cell><a href='#'>要詳細</a></Table.Cell>
+              <Table.Cell><Link to='#'>要詳細</Link></Table.Cell>
             </Table.Row>
           </Table.Body>
           <Table.Footer>
             <Table.Row textAlign='center'>
-              <Table.HeaderCell colSpan='2'><a href='#'>修改設定</a></Table.HeaderCell>
+              <Table.HeaderCell colSpan='2'><Link to='#'>修改設定</Link></Table.HeaderCell>
             </Table.Row>
           </Table.Footer>
         </Table>

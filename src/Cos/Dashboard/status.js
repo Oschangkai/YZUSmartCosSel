@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Table, Header } from "semantic-ui-react";
+import { Link } from "@reach/router";
 
 class Status extends Component {
   render() {
@@ -50,7 +51,7 @@ class Status extends Component {
           </Table.Body>
           <Table.Footer>
             <Table.Row textAlign='center'>
-              <Table.HeaderCell colSpan='2'><a href='#'>要詳細</a></Table.HeaderCell>
+              <Table.HeaderCell colSpan='2'><Link to='#'>要詳細</Link></Table.HeaderCell>
             </Table.Row>
           </Table.Footer>
         </Table>
